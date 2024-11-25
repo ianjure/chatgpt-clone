@@ -1,0 +1,6 @@
+fpdf2
+streamlit
+streamlit-float
+langchain
+langgraph
+langchain-google-genai
