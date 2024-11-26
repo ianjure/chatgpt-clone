@@ -347,7 +347,7 @@ def open_options():
         else:
             st.button("**SAVE KEY**", type="secondary", key="save", disabled=True, use_container_width=True)
     else:
-        user_API = st.text_input("**Enter Your API Key**", value=st.session_state['API_Key'], type="password")
+        user_API = st.text_input("**Enter Your API Key [Gemini]**", value=st.session_state['API_Key'], type="password")
         if user_API:
             if st.button("**SAVE KEY**", type="secondary", key="save", use_container_width=True):
                 st.session_state['API_Key'] = user_API
