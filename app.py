@@ -50,7 +50,7 @@ cntr_toast = """
         align-items: center;
         position: fixed;
         top: 72%;
-        left: 50%;
+        left: 48%;
         transform: translate(-50%, -50%);
         z-index: 999999;
     }
